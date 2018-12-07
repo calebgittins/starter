@@ -1,0 +1,25 @@
+.bg--primary{background-color:#ff4930}
+.color--primary{color:#ff4930}
+.border--primary{border-color:#ff4930}
+.bg--secondary{background-color:#951968}
+.color--secondary{color:#951968}
+.border--secondary{border-color:#951968}
+.bg--dark{background-color:#111}
+.color--dark{color:#111}
+.border--dark{border-color:#111}
+.bg--light{background-color:#ccc}
+.color--light{color:#ccc}
+.border--light{border-color:#ccc}
+.bg--error{background-color:#df0000}
+.color--error{color:#df0000}
+.border--error{border-color:#df0000}
+.login{color:#313131}
+.login h1 a{background-image:url(../../images/admin/logo.png) !important;background-size:124px !important;background-position:center top;background-repeat:no-repeat;margin:0 auto 24px;padding:0;width:124px;height:124px;text-indent:-9999px;outline:0;display:block}
+.login label{color:#313131}
+.login input[type=checkbox]{box-shadow:none;border-color:#ff4930}
+.login input[type=checkbox]:checked:before{color:#ff4930}
+.login .button-primary{background:#ff4930;border:0;box-shadow:none;color:#fff;text-decoration:none;text-shadow:none;-webkit-transition:all .24s ease-in-out;transition:all .24s ease-in-out}
+.login .button-primary:active,.login .button-primary:hover{background-color:#951968;border:0;box-shadow:none;text-shadow:none}
+.login #backtoblog a,.login #nav a{color:#ff4930}
+.login #backtoblog a:hover,.login #nav a:hover{color:#951968}
+.login #login_error,.login .message{color:#313131;border-left-color:#ff4930}

@@ -1,0 +1,25 @@
+/* ! 
+Theme Name: Starter
+Description: A responsive WordPress theme by Thirteen Digital
+Author: Thirteen Digital
+Author URI: http://www.thirteendigital.com.au
+Version: 0.0.1
+*/
+
+/*------------------------------------*\
+    $IMPORT
+\*------------------------------------*/
+
+@import "fonts/font-awesome.min.css";
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "helper";
+@import "vendor/magnific-popup.scss";
+@import "vendor/slick.scss";
+@import "animation";
+@import "global";
+@import "typography";
+@import "forms";
+@import "navigation";
+@import "layout";

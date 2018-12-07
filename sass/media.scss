@@ -1,0 +1,163 @@
+/*------------------------------------*\
+    $VIDEO
+\*------------------------------------*/
+
+.mejs-container {
+	width: 100% !important;
+	height: auto !important;
+	padding-top: 56.25%;
+}
+
+.mejs-overlay, .mejs-poster {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.mejs-mediaelement video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/*------------------------------------*\
+    $IMAGES
+\*------------------------------------*/
+
+.alignright, 
+a .alignright {
+    float: right;
+    margin: 0 0 1.618em 1.618em;
+}
+
+.alignleft, 
+a .alignleft {
+    float: left;
+    margin: 0 1.618em 1.618em 0;
+}
+
+.aligncenter, 
+a .aligncenter {
+    display: block;
+    margin: 0 auto 1.618em auto;
+}
+
+.alignnone, 
+a .alignnone {
+    display: block;
+    margin-bottom: 1.618em;
+}
+
+@include small {
+
+	img.alignleft, 
+	img.alignright {
+		max-width: 50%;
+		height: auto;
+	}
+
+}
+
+/*------------------------------------*\
+    $CAPTION
+\*------------------------------------*/
+
+.wp-caption { 
+	margin-bottom: 1.618em; 
+}
+
+.wp-caption img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 0.875em;
+    line-height: 1.4em;
+	margin-bottom: 0;
+	padding: 0.625em 0;
+	border-bottom: 1px solid $color-light;
+}
+
+/*------------------------------------*\
+    $GALLERY
+\*------------------------------------*/
+
+.gallery {
+	overflow: hidden;
+	margin-left: -24px;
+}
+
+.gallery-item {
+	float: left;
+	width: 33.333%;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	transition: $transition;
+}
+
+.gallery-columns-1 .gallery-item { 
+	width: 100%; 
+}
+
+.gallery br { 
+	display: none; 
+}
+
+.gallery img {
+	width: 100%;
+	height: auto !important;
+}
+
+@media screen and (min-width: 43.75em) {
+
+	.gallery { 
+		margin-left: -16px; 
+	}
+
+	.gallery-item {
+		padding-left: 16px;
+		padding-bottom: 16px;
+	}
+
+	.gallery-columns-1 .gallery-item { 
+		width: 100%; 
+	}
+
+	.gallery-columns-2 .gallery-item { 
+		width: 50%; 
+	}
+
+	.gallery-columns-3 .gallery-item { 
+		width: 33.333%; 
+	}
+
+	.gallery-columns-4 .gallery-item { 
+		width: 25%; 
+	}
+
+	.gallery-columns-5 .gallery-item { 
+		width: 20%; 
+	}
+
+	.gallery-columns-6 .gallery-item { 
+		width: 16.667%; 
+	}
+
+	.gallery-columns-7 .gallery-item { 
+		width: 14.285%; 
+	}
+
+	.gallery-columns-8 .gallery-item { 
+		width: 12.5%; 
+	}
+
+	.gallery-columns-9 .gallery-item { 
+		width: 11.1%; 
+	}
+
+}
